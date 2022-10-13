@@ -444,3 +444,19 @@ $ git clone https://gitee.com/Ahao1229/gitstudy.git
 3、提交测试
 
 ![image-20221013133752471](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013133752471.png)
+
+
+
+
+
+
+
+```java
+public void arr(){
+    int[] arr = new arr[5];
+    for(i = 0;i < arr.length; i++){
+        arr[i] = i;
+    }
+}
+```
+
