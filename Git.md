@@ -22,7 +22,7 @@
 
 无论是工作还是学习，或者是自己做笔记，都经历过这样一个阶段！我们就迫切需要一个版本控制工具！
 
-![image-20221012094839191](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012094839191.png)
+![image-20221012094839191](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012094839191.png?token=A3FWOAYNSDMBL2N6TK3GB4LDI63DC)
 
 多人开发就必须使用 版本控制，都在代价会比较大！
 
@@ -52,13 +52,13 @@ BitKeeper、Monotone、.Bazaar,Mercurial、.SourceGear Vault),现在影响力最
 
 记录文件每次更新，可以对每个版本做一个快照，或者记录补丁文件，适合个人用，如RCS。
 
-![image-20221012095826979](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012095826979.png)
+![image-20221012095826979](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012095826979.png?token=A3FWOA67FLQAQNFKZGQFXZLDI63N4)
 
 **2、集中版本控制 SVN**
 
 所有版本数据都保存在服务器上，修通开发者从服务器上同步更新或者上传自己的修改
 
-![image-20221012095959544](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012095959544.png)
+![image-20221012095959544](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012095959544.png?token=A3FWOA2B776MC76CSRCJQ3DDI63OU)
 
 所有的版本数据都存在服务器上，用户的本地只有自己以前所同步的版本，如果不连网的话，用户就看不到历史版本，也无法切换版本验证问题，或在不同分支工作。而且，所有数据都保存在单一的服务器上，有很大的风险这个服务器会损坏，这样就会丢失所有的数据，当然可以定期备份。代表产品：SVN、CVS、VSS
 
@@ -76,7 +76,7 @@ BitKeeper、Monotone、.Bazaar,Mercurial、.SourceGear Vault),现在影响力最
 
 SVN是集中式版本控制系统，版本库是集中放在中央服务器的，而工作的时候，用的都是自己的电脑，所以首先要从中央服务器得到最新的版本，然后工作，完成工作后，需要把自己做完的活推送到中央服务器。集中式版本控制系统是必须联网才能工作，对网络带宽要求较高。
 
-![image-20221012100823808](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012100823808.png)
+![image-20221012100823808](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012100823808.png?token=A3FWOA4RYALZ7BT2PZSX3OTDI63PG)
 
 Git是分布式版本控制系统，没有中央服务器，每个人的电脑就是一个完整的版本库，工作的时候不需要联网了，因为版本都在自己电脑上。协同的方法是这样的：比如说自己在电脑上改了文件A,其他人也在电脑上改了文件A,这时，你们两之间只需把各自的修改推送给对方，就可以互相看到对方的修改了。Git可以直接看到更新了那些代码和文件！
 
@@ -96,7 +96,7 @@ Linux社区中存在很多的大佬 ！破解研究BitKeeper ！
 
 Git是免费、开源的，最初Git是辅助Linux内核开发的，来代替BitKeeper！
 
-![image-20221012102430806](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012102430806.png)
+![image-20221012102430806](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012102430806.png?token=A3FWOA7HEL6LH7JQPF73MQLDI63PS)
 
 Linux和Git之父李纳斯托沃兹(Linus Benedic Torvalds)1969、芬兰
 
@@ -110,7 +110,7 @@ Linux和Git之父李纳斯托沃兹(Linus Benedic Torvalds)1969、芬兰
 
 淘宝镜像下载：https://registry.npmmirror.com/binary.html?path=git-for-windows/
 
-![image-20221012104005613](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012104005613.png)
+![image-20221012104005613](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012104005613.png?token=A3FWOAZHWFM7N32UYZGO2L3DI63QA)
 
 > 先卸载
 
@@ -126,7 +126,7 @@ Linux和Git之父李纳斯托沃兹(Linus Benedic Torvalds)1969、芬兰
 
 安装成功后再开始菜单会有Git项，菜单下有3个程序：任意文件夹下右键也可以看到对应程序 ！
 
-![image-20221012105600550](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012105600550.png)
+![image-20221012105600550](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012105600550.png?token=A3FWOA7GP2FQJMLSEZ5HS4DDI63QS)
 
 **Git Bash** : Unix与Linux风格的命令行，使用最多，推荐最多
 
@@ -190,7 +190,7 @@ git config --global --list 查看用户配置
 
 1 ）、Git\etc\gitconfig  : Git安装目录下的 gitconfig		--system 系统级
 
-![image-20221012113758592](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012113758592.png)
+![image-20221012113758592](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012113758592.png?token=A3FWOAZ23V3HQ4AOCW2OKJLDI63Q6)
 
 2 ）、C:\User\Administrator\ .gitconfig	只适用于当前登录用户的配置  --global 全局
 
@@ -211,7 +211,7 @@ git config --global user.email "ljh18833126553@gamil"
 
 只需要做一次这个设置，如果你传递了-obl选项，因为G引t将总是会使用该信息来处理你在系统中所做的一切操作。如果你希望在一个特定的项目中使用不同的名称或-mai地址，你可以在该项目中运行该命令而不要-globali选项。总之-global为全局配置，不加为某个项目的特定配置。
 
-![image-20221012114638874](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012114638874.png)
+![image-20221012114638874](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012114638874.png?token=A3FWOA6JGQWNVVXTM544XTTDI63RM)
 
 
 
@@ -223,14 +223,14 @@ git config --global user.email "ljh18833126553@gamil"
 
 Git本地有三个工作区域：工作目录(Vorking Directory)、暂存区(Stage/Index)、资源库(Repository?或Git Directory)。如果在加上远程的git仓库(Remote Directory)就可以分为四个工作区域。文件在这四个区域之间的转换关系如下：
 
-![image-20221012134050873](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012134050873.png)
+![image-20221012134050873](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012134050873.png?token=A3FWOAZB2KQN35F5QA3LTUDDI63RW)
 
 * Workspace ：工作区，就是你平时存放代码项目的地方
 * Index / Stage ：暂存区，用于临时存放你的改动，事实上他只是一个文件，保存即提交到文件列表信息
 * Repository ：仓库区（或本地仓库），就是安全存放数据的位置，这里有你提交到所有版本的数据。其中HEAD指向最新放入仓库的版本
 * Remote ：远程仓库，托管代码的服务器，可以简单的认为是你项目组中的一台电脑用于远程数据交换本地的是哪个区域，确切的说，应该是git仓库中HEAD指向的版本：
 
-![image-20221012134902598](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012134902598.png)
+![image-20221012134902598](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012134902598.png?token=A3FWOA5EIILXGER7VRK54F3DI63SA)
 
 * Directory ：使用Git管理的一个目录，也就是一个仓科，包含我们的工作空间和Git管理空间
 * WorkSpace ：需要通过Git进行版本控制的目录和文件，这些目录和文件组成了工作空间。
@@ -253,7 +253,7 @@ git的工作流程一般是这样的：
 
 因此，git管理的文件有三种状态 ：已修改（ modified ），已暂存（ staged ），已提交（ committed ）
 
-![image-20221012175753615](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012175753615.png)
+![image-20221012175753615](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012175753615.png?token=A3FWOA7SSQU5U4O4AWSMPL3DI63TC)
 
 
 
@@ -263,7 +263,7 @@ git的工作流程一般是这样的：
 
 工作目录(WorkSpace)一般就是你希望Git帮助你管理的文件夹，可以是你项目的目录，也可以是一个空目录，建议不要有中文。日常使用只要记住下图6个命令：
 
-![image-20221012175953759](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012175953759.png)
+![image-20221012175953759](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012175953759.png?token=A3FWOA2HMY6665MR42OTC5TDI63UG)
 
 
 
@@ -280,9 +280,9 @@ $ git init
 
 2、执行后可以看到，仅仅在项目目录多出了一个.git目录，关于版本等的所有信息都在这个目录里。
 
-![image-20221012180411204](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012180411204.png)
+![image-20221012180411204](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012180411204.png?token=A3FWOA47ASEWEITUQODTZXLDI63US)
 
-![image-20221012180442573](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012180442573.png)
+![image-20221012180442573](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012180442573.png?token=A3FWOA7I5ZYDDJXGCM57PULDI63U4)
 
 > 克隆远程仓库
 
@@ -297,7 +297,7 @@ $ git clone [url]
 
 2、去 github 或者 gitee 上克隆一个测试
 
-![image-20221012181520947](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012181520947.png)
+![image-20221012181520947](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221012181520947.png?token=A3FWOA6PMCZGQ6WF73YI4KDDI63VK)
 
 ![image-20221012181611346](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221012181611346.png)
 
@@ -329,7 +329,7 @@ git status
 # git commit -m		提交暂存区中的内容到本地仓库  -m 提交信息
 ```
 
-![image-20221013091040299](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013091040299.png)
+![image-20221013091040299](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013091040299.png?token=A3FWOA2KXQV2HIQA4JHPZXDDI63VY)
 
 
 
@@ -375,43 +375,43 @@ ssh-keygen
 # ssh-keygen -t rsa(加密算法)
 ```
 
-![image-20221013111400734](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013111400734.png)
+![image-20221013111400734](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013111400734.png?token=A3FWOA7E7WKH52PWDUM6HUTDI63WI)
 
 3、将公钥信息 public key添加到账户中
 
 > github
 
-![image-20221013111747330](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013111747330.png)
+![image-20221013111747330](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013111747330.png?token=A3FWOA7IUAHASH4GPNOSZMLDI63W2)
 
-![image-20221013111807924](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013111807924.png)
+![image-20221013111807924](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013111807924.png?token=A3FWOA6LJFXSWLOTR2EI5KLDI63XK)
 
 
 
-![image-20221013114356017](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013114356017.png)
+![image-20221013114356017](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013114356017.png?token=A3FWOAYWUAJHOL7XXJTNDJLDI63X6)
 
-![image-20221013114516514](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013114516514.png)
+![image-20221013114516514](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013114516514.png?token=A3FWOA7C4B6NJ3K6OSZDUH3DI63YI)
 
 
 
 > gitee
 
-![image-20221013111928177](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013111928177.png)
+![image-20221013111928177](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013111928177.png?token=A3FWOA7H6JGXESWLRMEMJELDI63YY)
 
-![image-20221013112001810](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013112001810.png)
+![image-20221013112001810](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013112001810.png?token=A3FWOA62OGGOBWBE7WRRVVLDI63ZE)
 
 4、创建自己的仓库
 
 > github
 
-![image-20221013112608163](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013112608163.png)
+![image-20221013112608163](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013112608163.png?token=A3FWOA65CGJCYIMR2ADGAS3DI63ZQ)
 
 > gitee
 
-![image-20221013112511464](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013112511464.png)
+![image-20221013112511464](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013112511464.png?token=A3FWOA65365P7XCBHF6L5ZDDI63Z4)
 
-![image-20221013112943825](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013112943825.png)
+![image-20221013112943825](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013112943825.png?token=A3FWOAY7SSQKBBNQZHBDHR3DI632O)
 
-![image-20221013113544815](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013113544815.png)
+![image-20221013113544815](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013113544815.png?token=A3FWOA2FWXEOCBUQZ4KWIGTDI632Y)
 
 克隆到本地
 
@@ -419,7 +419,7 @@ ssh-keygen
 $ git clone https://gitee.com/Ahao1229/gitstudy.git
 ```
 
-![image-20221013114038053](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013114038053.png)
+![image-20221013114038053](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013114038053.png?token=A3FWOAYSPJO6WL73VVHWE5LDI633E)
 
 **许可证：开源是否可以随意转载，开源但是不能商业使用，不能转载，…限制！**
 
@@ -429,9 +429,9 @@ $ git clone https://gitee.com/Ahao1229/gitstudy.git
 
 1、新建项目，绑定git
 
-* 将我们的远程git文件目录拷贝到项目中即可！![image-20221013132233344](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013132233344.png)
+* 将我们的远程git文件目录拷贝到项目中即可！![image-20221013132233344](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013132233344.png?token=A3FWOA3XLL2HLTVW5QRNTCLDI633U)
 
-![image-20221013132046795](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013132046795.png)
+![image-20221013132046795](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013132046795.png?token=A3FWOA362DGTGC67KZWT6B3DI634C)
 
 * IDEA已经发生变化
 
@@ -443,20 +443,11 @@ $ git clone https://gitee.com/Ahao1229/gitstudy.git
 
 3、提交测试
 
-![image-20221013133752471](C:\Users\h'p\AppData\Roaming\Typora\typora-user-images\image-20221013133752471.png)
+![image-20221013133752471](https://raw.githubusercontent.com/Ahao1229/PicGoImg/main/image-20221013133752471.png?token=A3FWOA2YEYBCLKMWEFM3QA3DI634O)
 
 
 
 
 
 
-
-```java
-public void arr(){
-    int[] arr = new arr[5];
-    for(i = 0;i < arr.length; i++){
-        arr[i] = i;
-    }
-}
-```
 
